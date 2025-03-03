@@ -29,3 +29,5 @@ Route::resource('orderdetails', App\Http\Controllers\orderdetailController::clas
 Route::get('product/displaygrid', 'App\Http\Controllers\productController@displaygrid')->name('products.displaygrid');
 
 Route::get('product/additem/{id}', 'App\Http\Controllers\productController@additem')->name('products.additem');
+
+Route::get('product/emptycart', 'App\Http\Controllers\productController@emptycart')->name('products.emptycart');
